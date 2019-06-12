@@ -26,7 +26,7 @@ public class FastBreakTruck extends Desayuno {
         return new Desayuno(smiggles, fleebJuice);
     }
 
-    public static void incluirJuguete(Desayuno eyeDes) {
-        eyeDes.setPlumbus(new Plumbus());
+    public static void incluirJuguete(Desayuno desayuno) {
+        desayuno.setPlumbus(new Plumbus());
     }
 }
