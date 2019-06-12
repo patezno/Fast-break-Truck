@@ -1,4 +1,4 @@
 package org.lasencinas.fastbreaktruck.drinks;
 
-public class FleebJuice {
+public class FleebJuice extends Bebida {
 }
