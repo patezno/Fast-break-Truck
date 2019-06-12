@@ -2,10 +2,11 @@ package org.lasencinas.fastbreaktruck.drinks;
 
 import org.lasencinas.fastbreaktruck.interfaces.Item;
 import org.lasencinas.fastbreaktruck.interfaces.Packing;
+import org.lasencinas.fastbreaktruck.packing.Tubo;
 
-abstract class Bebida implements Item {
+public abstract class Bebida implements Item {
 
     public Packing empaquetado() {
-        return new
+        return new Tubo();
     }
 }
