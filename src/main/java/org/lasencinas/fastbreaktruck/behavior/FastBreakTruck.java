@@ -5,6 +5,7 @@ import org.lasencinas.fastbreaktruck.drinks.FleebJuice;
 import org.lasencinas.fastbreaktruck.drinks.TurbulentJuice;
 import org.lasencinas.fastbreaktruck.food.Eyeholes;
 import org.lasencinas.fastbreaktruck.food.Smiggles;
+import org.lasencinas.fastbreaktruck.toys.Plumbus;
 
 public class FastBreakTruck extends Desayuno {
 
@@ -26,5 +27,6 @@ public class FastBreakTruck extends Desayuno {
     }
 
     public static void incluirJuguete(Desayuno eyeDes) {
+        eyeDes.setPlumbus(new Plumbus());
     }
 }
